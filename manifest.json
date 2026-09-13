@@ -1,7 +1,7 @@
 {
   "id": "api-db-schema-tools",
   "name": "API & DB Schema Tools",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "minAppVersion": "1.8.9",
   "description": "Manage API and database schemas with editable grids, JSON/DDL import, inline references, spreadsheet workflows, and a reversible one-command demo onboarding flow.",
   "author": "humoumou",

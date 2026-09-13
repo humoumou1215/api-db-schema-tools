@@ -1,7 +1,20 @@
-# API & DB Schema Tools v0.7.1
+# API & DB Schema Tools v0.7.2
 
 Schema Studio 用于维护接口字段和数据库字段。底层仍然是普通 Markdown + YAML Frontmatter + Wikilink，Fileclass 提供属性定义，Schema Tools 负责 JSON/DDL 导入、字段管理和精准引用。
 
+
+## Installation / 安装
+
+Download `main.js`, `manifest.json`, and `styles.css` from the matching [GitHub release](https://github.com/humoumou1215/api-db-schema-tools/releases). Place them in `<vault>/.obsidian/plugins/api-db-schema-tools/`, reload Obsidian, and enable **API & DB Schema Tools** under **Settings → Community plugins**. Fileclass is optional but provides the property definitions used by the schema views.
+
+## Usage / 使用
+
+Open the command palette and run **打开 Schema Studio** to browse and edit schema fields. Use **安装 / 打开体验样例** for a reversible demo, then use **退出体验样例并恢复插件配置** when finished. JSON and DDL import actions are available from the corresponding schema views.
+
+## v0.7.2：社区发布准备
+
+- 补充安装与使用说明。
+- Release 工作流为安装资产生成 GitHub artifact attestations。
 
 ## v0.7.1：体验样例中文化
 
