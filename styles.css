@@ -197,13 +197,13 @@
   content: '—';
   color: var(--text-faint);
 }
-.schema-studio-grid-status-head,
-.schema-studio-grid-status {
-  min-width: 34px !important;
+.schema-studio-grid .schema-studio-grid-status-head,
+.schema-studio-grid .schema-studio-grid-status {
+  min-width: 34px;
   width: 34px;
-  max-width: 34px !important;
-  padding: 0 !important;
-  text-align: center !important;
+  max-width: 34px;
+  padding: 0;
+  text-align: center;
   position: sticky;
   left: 0;
   z-index: 6;
@@ -221,7 +221,6 @@
   color: var(--text-error);
   opacity: .72;
   margin-right: 7px;
-  text-decoration-thickness: 1.5px;
 }
 .schema-studio-grid-new {
   color: var(--text-normal);
@@ -325,7 +324,7 @@
 .schema-studio-new-form label { display:grid; grid-template-columns:95px minmax(0,1fr); align-items:center; gap:8px; }
 .schema-studio-new-form input,
 .schema-studio-new-form select { width:100%; }
-.schema-studio-view-popover .is-hidden { display:none !important; }
+.schema-studio-view-popover .is-hidden { display:none; }
 
 /* Keep spreadsheet focus visually distinct while navigating with arrows. */
 .schema-studio-grid-cell:focus:not(.is-editing) {

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.7.4
+
+- Remove CSS compatibility warnings and document the Vault file-path enumeration used to discover configured schema records.
+
 ## 0.7.3
 
 - Rename the display name to comply with the Community directory naming rules.

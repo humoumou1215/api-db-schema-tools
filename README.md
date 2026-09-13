@@ -106,4 +106,4 @@ Open the command palette and run **打开 Schema Studio** to browse and edit sch
 
 ## 隐私与许可
 
-API Database Schema Tools 不发起网络请求、不包含遥测、不要求账户或付费服务。它只通过 Obsidian API 读写 Vault 内的 Markdown、YAML Frontmatter 和用户主动选择导入的内容。体验样例安装会先展示并备份将要修改的插件配置，且不会覆盖或删除已有文件。项目采用 [MIT License](LICENSE)。
+API Database Schema Tools 不发起网络请求、不包含遥测、不要求账户或付费服务。它会枚举 Vault 中的 Markdown 文件路径，以发现配置目录下的接口、数据库和字段记录，并只读取与当前 Schema Tools 配置路径匹配的内容；写入仅通过 Obsidian API 修改 Vault 内的 Markdown、YAML Frontmatter 和用户主动选择导入的内容。体验样例安装会先展示并备份将要修改的插件配置，且不会覆盖或删除已有文件。项目采用 [MIT License](LICENSE)。
