@@ -1,15 +1,19 @@
-# API & DB Schema Tools v0.7.2
+# API Database Schema Tools v0.7.3
 
 Schema Studio 用于维护接口字段和数据库字段。底层仍然是普通 Markdown + YAML Frontmatter + Wikilink，Fileclass 提供属性定义，Schema Tools 负责 JSON/DDL 导入、字段管理和精准引用。
 
 
 ## Installation / 安装
 
-Download `main.js`, `manifest.json`, and `styles.css` from the matching [GitHub release](https://github.com/humoumou1215/api-db-schema-tools/releases). Place them in `<vault>/.obsidian/plugins/api-db-schema-tools/`, reload Obsidian, and enable **API & DB Schema Tools** under **Settings → Community plugins**. Fileclass is optional but provides the property definitions used by the schema views.
+Download `main.js`, `manifest.json`, and `styles.css` from the matching [GitHub release](https://github.com/humoumou1215/api-db-schema-tools/releases). Place them in `<vault>/.obsidian/plugins/api-db-schema-tools/`, reload Obsidian, and enable **API Database Schema Tools** under **Settings → Community plugins**. Fileclass is optional but provides the property definitions used by the schema views.
 
 ## Usage / 使用
 
 Open the command palette and run **打开 Schema Studio** to browse and edit schema fields. Use **安装 / 打开体验样例** for a reversible demo, then use **退出体验样例并恢复插件配置** when finished. JSON and DDL import actions are available from the corresponding schema views.
+
+## v0.7.3：社区命名兼容
+
+- Use a directory-compatible display name without punctuation that is easy to distinguish from Obsidian core features.
 
 ## v0.7.2：社区发布准备
 
@@ -30,7 +34,7 @@ Open the command palette and run **打开 Schema Studio** to browse and edit sch
 
 第一次安装插件后，可以通过命令面板（Ctrl/Cmd+P）运行：
 
-**API & DB Schema Tools: 安装 / 打开体验样例**
+**API Database Schema Tools: 安装 / 打开体验样例**
 
 安装前会显示完整影响范围，包括：
 
@@ -52,7 +56,7 @@ Open the command palette and run **打开 Schema Studio** to browse and edit sch
 
 体验结束后运行：
 
-**API & DB Schema Tools: 退出体验样例并恢复插件配置**
+**API Database Schema Tools: 退出体验样例并恢复插件配置**
 
 该命令只恢复插件配置，不自动删除 `_SchemaTools-Demo/`，避免误删你在样例中做的修改。
 
@@ -102,4 +106,4 @@ Open the command palette and run **打开 Schema Studio** to browse and edit sch
 
 ## 隐私与许可
 
-API & DB Schema Tools 不发起网络请求、不包含遥测、不要求账户或付费服务。它只通过 Obsidian API 读写 Vault 内的 Markdown、YAML Frontmatter 和用户主动选择导入的内容。体验样例安装会先展示并备份将要修改的插件配置，且不会覆盖或删除已有文件。项目采用 [MIT License](LICENSE)。
+API Database Schema Tools 不发起网络请求、不包含遥测、不要求账户或付费服务。它只通过 Obsidian API 读写 Vault 内的 Markdown、YAML Frontmatter 和用户主动选择导入的内容。体验样例安装会先展示并备份将要修改的插件配置，且不会覆盖或删除已有文件。项目采用 [MIT License](LICENSE)。

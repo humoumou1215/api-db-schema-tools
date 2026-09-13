@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.7.3
+
+- Rename the display name to comply with the Community directory naming rules.
+
 ## 0.7.2
 
 - Clarify installation, usage, and privacy behavior.

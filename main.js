@@ -803,7 +803,7 @@ class SchemaToolsPlugin extends Plugin {
       if (enabled) list.unshift(this.schemaInlineSuggest);
       else list.push(this.schemaInlineSuggest);
     } catch (error) {
-      console.warn('[API & DB Schema Tools] Could not change inline schema suggester priority.', error);
+      console.warn('[API Database Schema Tools] Could not change inline schema suggester priority.', error);
     }
   }
 

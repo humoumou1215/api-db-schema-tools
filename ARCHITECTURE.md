@@ -1,4 +1,4 @@
-# API & DB Schema Tools v0.7 architecture
+# API Database Schema Tools v0.7 architecture
 
 ## Boundary
 
